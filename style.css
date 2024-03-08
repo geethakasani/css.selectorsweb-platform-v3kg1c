@@ -1,0 +1,24 @@
+/* Properties which are inherited by the child element*/
+body {
+  font-family: Arial, sans-serif; /* Inherited font-family */
+  color: whitesmoke; /* Inherited text color */
+  background-color: rgb(185, 185, 185); /* Inherited background color */
+  line-height: 1.6; /* Inherited line height */
+  font-size: 20px;
+}
+
+/* Properties which are not inherited by the child element */
+
+body {
+  padding: 40px;
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: 3em;
+  color: #0088cc;
+  margin-bottom: 10px;
+}
+p {
+  border: 2px solid blueviolet;
+}
